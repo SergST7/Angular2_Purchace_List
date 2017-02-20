@@ -5,10 +5,12 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { PurchaceList } from './list.component';
+
 
 @NgModule({
   imports:      [ BrowserModule ],
-  declarations: [  ],
-  bootstrap:    [  ]
+  declarations: [ PurchaceList ],
+  bootstrap:    [ PurchaceList ]
 })
 export class MainModule { }
